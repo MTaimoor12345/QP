@@ -1,0 +1,22 @@
+{
+  "name": "qp_taza_meat",
+  "version": "1.0.0",
+  "description": "This Is QP Portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "M Taimoor",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.49"
+  }
+}
