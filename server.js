@@ -1,9 +1,14 @@
+import connectdb from './db/connectdb.js';
 const express = require('express');
 const app = express();
 const ejs = require('ejs');
 const path = require('path');
+
 const expressLayout=require('express-ejs-layouts')
-const PORT =process.env.PORT || 3300
+const PORT =process.env.PORT || 3300 ;
+const DATABASE_URL = process.env.DATABASE_URL || 'mongodb://localhost:27017';
+
+connectdb(DATABASE_URL);
 
 
 
